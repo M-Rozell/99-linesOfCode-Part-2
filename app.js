@@ -11,6 +11,7 @@ function sing() {
         div.className = "friend";
         document.body.appendChild(div);
         let h3 = document.createElement("h3");
+        h3.className = "friendName";
         let h3Friend = document.createTextNode(friends[i]);
         h3.appendChild(h3Friend);
         div.appendChild(h3);

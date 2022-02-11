@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(159, 236, 211);
+    text-align: center;
+}
+
+#btn {
+    background-color: rgb(2, 94, 214);
+    color: rgb(251, 250, 252);
+}
+
+.friendName{
+    color: rgb(5, 5, 168);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.friend {
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+}
