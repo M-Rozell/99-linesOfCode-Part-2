@@ -20,24 +20,24 @@ function sing() {
             let p = document.createElement("p");
 
             if (t > 2) {
-                let pSing = document.createTextNode([t] + " lines of code in the file,", +[t] + " lines of code;", +
-                    h3Friend + " strikes one out, cleares it all out,", +[t - 1] + "lines of code in the file.");
+                let pSing = document.createTextNode([t] + " lines of code in the file," + " " + [t] + " lines of code;" + " " +
+                    friends[i] + " strikes one out, cleares it all out, " + [t - 1] + " " + "lines of code in the file.");
 
                 p.appendChild(pSing);
                 div.appendChild(p);
             }
 
             if (t == 2) {
-                let pSing = document.createTextNode(t + ' lines of code in the file,', t + ' lines of code;',
-                    h3Friend, 'strikes one out, cleares it all out,', t - 1, 'line of code in the file.');
+                let pSing = document.createTextNode([t] + ' lines of code in the file,' + " " + [t] + ' lines of code;' + " " +
+                    friends[i] + ' strikes one out, cleares it all out,' + [t - 1] + ' line of code in the file.');
 
                 p.appendChild(pSing);
                 div.appendChild(p);
             };
 
             if (t == 1) {
-                let pSing = document.createTextNode(t + ' line of code in the file,', t + ' line of code;',
-                    h3Friend, 'strikes one out, cleares it all out, no more lines of code in the file.');
+                let pSing = document.createTextNode([t] + ' line of code in the file,' + " "  + [t] + ' line of code;' + " " +
+                    friends[i] + ' strikes one out, cleares it all out, no more lines of code in the file.');
 
                 p.appendChild(pSing);
                 div.appendChild(p);
