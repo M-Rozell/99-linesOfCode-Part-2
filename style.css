@@ -1,19 +1,33 @@
 body {
-    background-color: rgb(159, 236, 211);
+    background-color: rgb(32, 31, 31);
     text-align: center;
 }
 
 #btn {
-    background-color: rgb(2, 94, 214);
-    color: rgb(251, 250, 252);
+    padding: .5em;
+    font-size: large;
+    background-color: rgb(32, 31, 31);
+    color: rgb(252, 252, 252);
+    cursor: pointer;
+    border:0.1em solid rgb(252, 252, 252)
+}
+
+p{
+    background-color: rgb(25, 25, 25);
+    
+}
+
+#btn:hover {
+    background-color: rgb(252, 252, 252);
+    color: black;
 }
 
 .friendName{
-    color: rgb(5, 5, 168);
+    color: rgb(252, 252, 252);
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .friend {
     font-family: Arial, Helvetica, sans-serif;
-    color: blue;
+    color: rgb(252, 252, 253);
 }

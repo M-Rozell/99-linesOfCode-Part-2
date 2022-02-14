@@ -1,5 +1,5 @@
 
-let friends = ['Cat', 'James', 'Tommy', 'Rachel', 'Sonya'];
+let friends = ['Cat', 'James', 'Tommy', 'Rachel', 'Oliver'];
 let btn = document.querySelector("#btn");
 btn.addEventListener("click", sing);
 let count = 0;
@@ -29,8 +29,8 @@ function sing() {
             }
 
             if (t == 2) {
-                let pSing = document.createTextNode([t] + ' lines of code in the file,' + " " + [t] + ' lines of code;' + " " +
-                    friends[i] + ' strikes one out, cleares it all out,' + [t - 1] + ' line of code in the file.');
+                let pSing = document.createTextNode([t] +  " lines of code in the file," + " " + [t] + " lines of code;" + " " +
+                    friends[i] + " strikes one out, cleares it all out," + [t - 1] + " line of code in the file.");
 
                 p.appendChild(pSing);
                 div.appendChild(p);
